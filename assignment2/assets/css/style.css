@@ -247,6 +247,13 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   /*For Mobile */
+  #masthead {
+    position: static;
+    margin-bottom: 20px;
+  }
+  #main-container {
+    padding: 0;
+  }
   #logo {
     width: 100%;
   }
@@ -260,7 +267,6 @@ input[type=submit] {
   }
   .main-section {
     width: 100%;
-    margin-top: 30px;
   }
   .auth-image {
     width: 100%;
