@@ -3,7 +3,8 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/swirl_pattern.png");
+  background: url("../images/wood.jpeg");
+  background-size: cover;
 }
 
 * {
