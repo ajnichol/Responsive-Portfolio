@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/swirl_pattern.png");
 }
 
 * {
@@ -179,7 +179,7 @@ h3,
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: .8;
+  height: auto;
 }
 
 .work h3 {
