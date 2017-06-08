@@ -290,6 +290,9 @@ input[type=submit] {
     background: #4aaaa5;
     font-size: 18px;
   }
+  .auth-image{
+    width: 115px;
+  }
 }
 
 @media screen and (max-width: 768px) {
