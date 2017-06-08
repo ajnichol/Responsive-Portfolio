@@ -280,7 +280,7 @@ input[type=submit] {
     margin-bottom: 30px;
   }
   .work:nth-child(even){
-    margin-right: 10px;
+    margin-right: 15px;
   }
   .work{
     text-align: center;
@@ -316,9 +316,12 @@ input[type=submit] {
     width: 100%;
     margin-bottom: 30px;
   }
-   .work {
-      width: 47%;
-    }
+  .work:nth-child(even){
+    margin-right: 30px;
+  }
+  .work{
+    width: 47%;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
