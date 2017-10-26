@@ -316,9 +316,6 @@ input[type=submit] {
     width: 100%;
     margin-bottom: 30px;
   }
-  .work:nth-child(even){
-    margin-right: 30px;
-  }
   .work{
     width: 47%;
   }
@@ -346,5 +343,43 @@ input[type=submit] {
   }
   .sidebar {
     margin-right: 110px;
+  }
+}
+
+#car{
+  height: 205px;
+}
+
+#car2{
+  height: 205px;
+}
+
+#dog{
+  height: 205px;
+}
+
+#newYork{
+  height: 205px;
+}
+
+@media screen and (max-width: 561px){
+  #car{
+    height: 176px;
+  }
+
+  #car2{
+    height: 176px;
+  }
+
+  #dog{
+    height: 176px;
+  }
+
+  #newYork{
+    height: 176px;
+  }
+
+  .work{
+    margin: 0;
   }
 }
